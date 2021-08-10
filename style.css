@@ -18,6 +18,10 @@ a:hover {
     cursor: pointer;
 }
 
+li {
+    list-style: none;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
