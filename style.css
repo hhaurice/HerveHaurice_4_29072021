@@ -28,12 +28,15 @@ figure, blockquote, figcaption {
     color: #767676;
 } 
 
-.bgc-dark-slate-blue {
-    color: #1A295B;
+figure {
+    
+    display: flex; 
+    flex-direction: column;
 }
 
-.bgc-atomic-tangerine, .btn-atomic-tangerine {
-    color: #FFA378;
+figcaption {
+    display: flex; 
+    justify-content: center;
 }
 
 /* Fin ajout */ 
