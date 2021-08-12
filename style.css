@@ -18,9 +18,25 @@ a:hover {
     cursor: pointer;
 }
 
+/* Ajout propriétés pour optimisation accessibilité */
+
 li {
     list-style: none;
 }
+
+figure, blockquote, figcaption {
+    color: #767676;
+} 
+
+.bgc-dark-slate-blue {
+    color: #1A295B;
+}
+
+.bgc-atomic-tangerine, .btn-atomic-tangerine {
+    color: #FFA378;
+}
+
+/* Fin ajout */ 
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -771,19 +787,19 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #1A295B;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFA378;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFA378!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #FFA378;
     color: #FFFFFF!important;
 }
 
@@ -801,7 +817,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FFA378!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -809,8 +825,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #1A295B!important;
+    border-color: #1A295B!important;
 }
 
 .bg-dots-bg {
