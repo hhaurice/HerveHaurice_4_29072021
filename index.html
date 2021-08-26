@@ -2,17 +2,16 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-   
-	<link rel="shortcut icon" href="favicon.jpg"> 
-	<link rel="stylesheet" href="./css/bootstrap.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="./css/font-awesome.css">
-	<link rel="stylesheet" href="./css/et-line.css">
 	
+	<title>La chouette agence - entreprise webdesign à Lyon</title>
 
-    <title>La chouette agence - entreprise webdesign à Lyon</title>
+	<link rel="icon" href="./img_webp/favicon.webp"> 
+	<link rel="preload" href="./fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+	<link rel="stylesheet" href="./css/et-line.min.css">
 
 <!-- Analytics -->
   
@@ -26,7 +25,7 @@
 <header class="bloc bgc-white l-bloc bloc-sm" id="bloc-0">
 	<nav class="navbar row">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="index.html"><img src="./img_webp/la-chouette-agence.webp" alt="la chouette agence banniere" class="img-fluid"/></a>
+			<a class="navbar-brand" href="index.html"><img src="./img_webp/la-chouette-agence.webp" width="220" height="41" alt="la chouette agence banniere"/></a>
 			<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 			</button>
@@ -40,13 +39,16 @@
 	</nav>
 </header>
 
+
 <!-- bloc-1-presentation -->
-<section class="bloc bgc-dark-slate-blue d-bloc bg-t-edge bloc-bg-texture bloc-lg container-fluid" id="bloc-1-hero">
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax " id="bloc-1-hero">
+	<div class="container bloc-lg">
 		<div class="col-sm-12 text-center">
-			<img src="./img_webp/logo.webp" class="center-block image-resize-mode img-fluid" alt="La chouette agence logo"/>
+			<img src="./img_webp/logo.webp" class="center-block image-resize-mode" width="150" height="150" alt="La chouette agence logo"/>
 			<h1 class="hero-bloc-text tc-white ">La chouette agence</h1>
 			<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 		</div>
+	</div>
 </section>
 
 <!-- bloc-2-services -->
@@ -75,9 +77,9 @@
 </section>
 
 <!-- bloc-3-what-i-do -->
-<section class="bloc tc-white bgc-dark-slate-blue d-bloc" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
-		<div class="row tight-width-whitespace">
+		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12 text-center">
 				<h2 class="mg-md tc-white">Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.</h2>
 				<p class="white">Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a></p>
@@ -87,28 +89,28 @@
 </section>
 
 <!-- bloc-4-portfolio -->
-<article class="bloc bgc-white bg-repeat l-bloc text-center" id="bloc-4-portfolio">
+<article class="bloc bloc-lg bgc-white bg-lines-h2-bg bg-repeat l-bloc text-center" id="bloc-4-portfolio">
 	<h2 class="col-sm-12">Nous travaillons avec beaucoup de clients. Voici nos réalisations.</h2>
 	<div class="row tight-width-whitespace portfolio-row">
 		<figure class="col-sm-6">
-			<a href="#" data-lightbox="./img_webp/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="./img_webp/1.webp" class="img-responsive portfolio-thumb img-fluid"  alt="Refonte d'un site web pour un journal local"/></a>
+			<a href="#" data-lightbox="./img_webp/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="./img_webp/1.webp" class="img-responsive portfolio-thumb" width="270" height="270" alt="Refonte d'un site web pour un journal local"/></a>
 			<h3 class="mg-md">Refonte d'un site web pour un journal local</h3>
 			<figcaption>Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.</figcaption>
 		</figure>
 		<figure class="col-sm-6">
-			<a href="#" data-lightbox="./img_webp/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="./img_webp/2.webp" class="img-responsive portfolio-thumb img-fluid" alt="Création d'un site web pour photographes" /></a>
+			<a href="#" data-lightbox="./img_webp/2.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="./img_webp/2.webp" class="img-responsive portfolio-thumb" width="270" height="270"  alt="Création d'un site web pour photographes" /></a>
 			<h3 class="mg-md">Création d'un site web pour photographes</h3>
 			<figcaption>Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.</figcaption>
 		</figure>
 	</div>
 	<div class="row tight-width-whitespace portfolio-row">
 		<figure class="col-sm-6">
-			<a href="#" data-lightbox="./img_webp/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="./img_webp/3.webp" class="img-responsive portfolio-thumb img-fluid" alt="Création d'un site web pour voyageur"/></a>
+			<a href="#" data-lightbox="./img_webp/3.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="./img_webp/3.webp" class="img-responsive portfolio-thumb" width="270" height="270"  alt="Création d'un site web pour voyageur"/></a>
 			<h3 class="mg-md">Création d'un site internet pour un voyageur</h3>
 			<figcaption>Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.</figcaption>
 		</figure>
 		<figure class="col-sm-6">
-			<a href="#" data-lightbox="./img_webp/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="./img_webp/4.webp" class="img-responsive portfolio-thumb img-fluid" alt="Création d'un site web pour agence de mariage" /></a>
+			<a href="#" data-lightbox="./img_webp/4.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="./img_webp/4.webp" class="img-responsive portfolio-thumb" width="270" height="270"  alt="Création d'un site web pour agence de mariage" /></a>
 			<h3 class="mg-md">Conception d'un site pour une agence de mariage</h3>
 			<figcaption>Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.</figcaption>
 		</figure>
@@ -116,7 +118,7 @@
 </article>
 
 <!-- bloc-5-cta -->
-<section class="bloc tc-white bgc-dark-slate-blue d-bloc text-center" id="bloc-5-cta">
+<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper text-center" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<h2 class="mg-md tc-white">Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe!</h2>
 		<div class="col-sm-12">
@@ -128,7 +130,7 @@
 <!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm text-center">
-		<h3 class="white">La chouette agence - Agence web basée à Lyon</h3>
+		<h3>La chouette agence - Agence web basée à Lyon</h3>
 		<ul class="row row-no-gutters social">
 			<li class="col-sm-3">
 				<a class="social" title="twitter" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
@@ -143,16 +145,52 @@
 				<a class="social" title="instagram" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 			</li>
 		</ul>
-	</div>
+		<div class="row white">
+			<section class="col-sm-4">
+				<h3>Partenaires</h3>
+					<ul>
+						<li><a href="voiture.com">voiture.com</a></li>
+						<li><a href="pizza.com">pizza.com</a></li>
+						<li><a href="matoiture.com">matoiture.com</a></li>
+						<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+					</ul>		
+			</section>
+			<section class="col-sm-4">
+				<h3>Annuaire</h3>
+				<ul>
+					<li><a href="annuaireagence.com">annuaireagence.com</a></li>
+					<li><a href="annuaireseo.com">annuaireseo.com</a></li>
+					<li><a href="annuairemarketing.com">annuairemarketing.com</a></li>
+					<li><a href="123seoture.com">123seo.com</a></li>
+					<li><a href="123site.com">123site.com</a></li>
+					<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
+					<li><a href="listeagence.com">listeagence.com</a></li>
+					<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
+					<li><a href="listeseo.com">listeseo.com</a></li>
+				</ul>
+			</section>
+			<section class="col-sm-4">
+				<h3>Améliorer son référencement</h3>
+				<ul>
+					<li><a href="betterseo.com">betterseo.com</a></li>
+					<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
+					<li><a href="seojuicelien.com">seojuicelien.com</a></li>
+					<li><a href="meilleursliens.com">meilleursliens.com</a></li>
+					<li><a href="liensagogo.com">liensagogo.com</a></li>
+					<li><a href="backlink.com">backlink.com</a></li>
+					<li><a href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
+					<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
+					<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
+				</ul>
+			</section>
+		</div>
 </footer>
 
 </main>
    
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="./js/blocs.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js" integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 </body>
 </html>
